@@ -199,3 +199,46 @@ h1,h3,o,a,button{
     right: -20%;
     margin-right: -10px;
 }
+
+.fivepage-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+
+#fivepage{
+    background-image: url("images/five.jpg");
+}
+
+.footertext{
+    margin-top: 55px;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footerbtncenter{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.queyeicon{
+    width: 200px;
+}
+.queyeicon:hover{
+    border: 2px solid #d9edf7;
+}
+
+.footertextbtn{
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.footertextbtn-text{
+    margin-top: 20px;
+    color: #000;
+}
