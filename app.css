@@ -1,6 +1,36 @@
 h1,h3,o,a,button{
     font-family: "Helvetica Neue", Helvetica;
 }
+
+.side-nav{
+    position: fixed;
+    top: 45%;
+    right: 20px;
+    z-index: 1;
+}
+
+.side-nav ul.nav-side-nav{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.side-nav ul.nav-side-nav >li{
+    display: block;
+    line-height: 1.45em;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.side-nav ul.nav-side-nav >li >a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e2e2e2;
+}
+
 .onepage{
     height: 750px;
 }
@@ -117,6 +147,7 @@ h1,h3,o,a,button{
     height: 100%;
     height: 800px;
 }
+
 .threepage-bg{
     position: absolute;
     height: 100%;
@@ -129,6 +160,7 @@ h1,h3,o,a,button{
 #threepagebg{
     background-image: url("images/three.jpg");
 }
+
 .threepagecontent{
     width: 100%;
     margin: 0 auto;
