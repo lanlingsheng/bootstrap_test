@@ -150,3 +150,52 @@ h1,h3,o,a,button{
     margin-top: 450px;
     font-size: 25px;
 }
+
+.fourpage{
+    height: 700px;
+    background-image: url("images/four.jpg");
+    margin-top: 800px;
+}
+
+.coursexiangqing-text{
+    color: #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+.coursexiangqing-text p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.fourpage .container .carousel{
+    margin-top: 100px;
+}
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: -20%;
+    margin-left: -10px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: -20%;
+    margin-right: -10px;
+}
